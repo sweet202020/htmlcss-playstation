@@ -135,10 +135,7 @@ nav{
     background-color: var(--ps-call_to_action);
     color: white;
 }
-.title{
-    position: absolute;
-    top: 0;
-}
+
 /* #endregion jumbotron */
 /* #region new_arrival */
 .new_arrival{
