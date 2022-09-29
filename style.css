@@ -9,6 +9,7 @@
     --ps-call_to_action: #CD3D0F;
     --ps-navbar: 13px;
     --ps-h2: 25px;
+    --ps-explore: #3469E6;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -62,7 +63,6 @@ body{
     border: 1px solid;
 }
 .debug .play_plus{
-    background-color: red;
     height: 300px;
 }
 .debug .discount{
@@ -208,9 +208,42 @@ nav{
     font-weight: 600;
 }
 /* #endregion play_4 */
+/* #region play_plus */
+.play_plus{
+    background-color: var(--ps-plus);
+
+} 
+.bg_soul{
+    background-image: url("./img/ps-plus-april-monthly-games-featured-image-block.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 300px;
+}
+
+.play_plus .logo_plus{
+    background-image: url("./img/ps-plus-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+}
+.play_plus p{
+    font-weight: 600;
+}
+.play_plus button{
+    color: var(--ps-explore);
+}
+/* #endregion play_plus */
 /* #region footer */
 footer{
     background-color: var(--ps-footer);
 }
 /* #endregion footer */
 
+
+@media screen and (max-width:768px) {
+    .bg_soul{
+        background-image: none;
+    }
+    
+}
