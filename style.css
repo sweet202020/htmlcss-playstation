@@ -128,8 +128,25 @@ nav{
 /* #endregion header */
 
 /* #region jumbotron */
-.jumbotron .banner{
+
+.jumbotron{
+    background-image: url("./img/jumbo-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+.caption img, .banner p{
     width: 400px;
+}
+.banner{
+    padding: 25rem 0;
+}
+.banner p, .banner h2, .banner button{
+    margin: 2rem 3rem;
+}
+.banner img{
+    margin: 0 3rem;
 }
 .btn_action{
     background-color: var(--ps-call_to_action);
@@ -148,3 +165,4 @@ footer{
     background-color: var(--ps-footer);
 }
 /* #endregion footer */
+
