@@ -10,6 +10,7 @@
     --ps-navbar: 13px;
     --ps-h2: 25px;
     --ps-explore: #3469E6;
+    --ps-bg_playnow:#161c3b;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -252,6 +253,31 @@ nav{
     font-weight: 600;
  }
 /* #endregion discount */
+/* #region play_now */
+.play_now{
+    background-color: var(--ps-bg_playnow);
+}
+.bg_hero{
+    background-image: url("./img/ps-now-april-featured-image-block.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 300px;
+}
+.logo_now{
+    background-image: url("./img/ps-now-logo-two-column.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+}
+/* #endregion play_now */
+/* #region social */
+
+.container_social{
+    max-width: 400px;
+    margin: 0 auto;
+}
+/* #endregion social */
 /* #region footer */
 footer{
     background-color: var(--ps-footer);
@@ -263,5 +289,7 @@ footer{
     .bg_soul{
         background-image: none;
     }
-    
+    .bg_hero{
+        background-image: none;
+    }
 }
