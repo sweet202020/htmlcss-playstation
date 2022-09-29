@@ -201,7 +201,13 @@ nav{
     background-color: var(--ps-new_arrival);
 }
 /* #endregion new_arrival */
-
+/* #region play_4 */
+.play_4 p{
+    margin-bottom: 0;
+    color: var(--ps-p);
+    font-weight: 600;
+}
+/* #endregion play_4 */
 /* #region footer */
 footer{
     background-color: var(--ps-footer);
