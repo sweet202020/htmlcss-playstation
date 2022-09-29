@@ -149,6 +149,9 @@ nav{
     background-color: var(--ps-call_to_action);
     color: white;
 }
+.jumbotron h2{
+    font-weight: 600;
+}
 
 /* #endregion jumbotron */
 
@@ -158,7 +161,11 @@ nav{
     color: var(--ps-information);
     font-weight: 600;
 }
+.play_5 h2{
+    font-weight: 600;
+}
 .play_5 p{
+    font-weight: 600;
     color: var(--ps-p);
 }
 .btn_information{
@@ -203,8 +210,10 @@ nav{
 /* #endregion new_arrival */
 /* #region play_4 */
 .play_4 p{
-    margin-bottom: 0;
     color: var(--ps-p);
+    font-weight: 600;
+}
+.play_4 h2{
     font-weight: 600;
 }
 /* #endregion play_4 */
@@ -234,6 +243,15 @@ nav{
     color: var(--ps-explore);
 }
 /* #endregion play_plus */
+/* #region discount */
+.discount h2{
+    font-weight: 600;
+}
+.discount p{
+    color: var(--ps-p);
+    font-weight: 600;
+ }
+/* #endregion discount */
 /* #region footer */
 footer{
     background-color: var(--ps-footer);
