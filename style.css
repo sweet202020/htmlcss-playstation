@@ -282,6 +282,12 @@ nav{
 footer{
     background-color: var(--ps-footer);
 }
+footer .col-12 img{
+    width: 200px;
+}
+footer ul{
+    list-style: none;
+}
 /* #endregion footer */
 
 
