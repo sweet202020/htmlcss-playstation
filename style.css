@@ -154,6 +154,25 @@ nav{
 }
 
 /* #endregion jumbotron */
+
+/* #region play_5 */
+.play_5 h4{
+    font-size: var(--ps-navbar);
+    color: var(--ps-information);
+    font-weight: 600;
+}
+.play_5 p{
+    color: var(--ps-p);
+}
+.btn_information{
+    background-color: var(--ps-information);
+}
+.play_5 .accessories .caption{
+    width: 70%;
+    margin: auto;
+}
+
+/* #endregion play_5 */
 /* #region new_arrival */
 .new_arrival{
     background-color: var(--ps-new_arrival);
