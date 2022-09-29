@@ -136,17 +136,14 @@ nav{
     background-position: center;
     height: 800px;
 }
-.jumbotron .caption img, .banner p{
+.jumbotron .banner img, .banner p{
     width: 400px;
 }
 .jumbotron .banner{
     padding: 25rem 0;
 }
 .jumbotron .banner p, .jumbotron .banner h2, .jumbotron .banner button{
-    margin: 2rem 3rem;
-}
-.jumbotron .banner img{
-    margin: 0 3rem;
+    margin: 2rem 0;
 }
 .btn_action{
     background-color: var(--ps-call_to_action);
