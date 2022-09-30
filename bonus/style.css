@@ -266,6 +266,8 @@ nav{
 }
 .takes_two h2, .takes_two p{
     width: 400px;
+    -webkit-text-stroke: 0.5px black;
+
 }
 .takes_two .caption{
     padding: 5rem 0;
@@ -347,7 +349,7 @@ nav{
     background-image: url("./img/ps-now-logo-two-column.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100px;
+    height: 60px;
 }
 .play_now .btn_light{
     padding: 0.5rem;
